@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '16TRV470M10X10.5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Rubycon", "16TRV470M10X10.5" (!) = "", "CAPAE1030X1050N", "Capacitor Al Electrolytic", "232-16TRV470M10X10.5", "https://www.mouser.co.uk/ProductDetail/Rubycon/16TRV470M10X105?qs=T3oQrply3y940smn1RbN5g%3D%3D", "Aluminum Electrolytic Capacitors - SMD LONG LIFE ELECTROLYTIC CAPACITORS", "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf", "10.5 mm"
+END_PART
+
+END.

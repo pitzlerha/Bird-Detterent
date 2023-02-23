@@ -1,0 +1,16 @@
+.16TRV470M10X10.5 :1 ;Aluminum Electrolytic Capacitors - SMD LONG LIFE ELECTROLYTIC CAPACITORS
+CAPAE1030X1050N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN 16TRV470M10X10.5
+~!Mouser Part Number (232-16TRV470M10X10.5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Rubycon/16TRV470M10X105?qs=T3oQrply3y940smn1RbN5g%3D%3D)
+~!Manufacturer_Name (Rubycon)
+~!Manufacturer_Part_Number (16TRV470M10X10.5)
+~!Link Datasheet (http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf)
+~!Height (10.5mm)
+~!3D_Model (16TRV470M10X10.5)
+"16TRV470M10X10.5"
+1.1!U 2.1!U 

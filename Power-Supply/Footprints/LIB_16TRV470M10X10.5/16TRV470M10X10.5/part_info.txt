@@ -1,0 +1,9 @@
+Manufacturer=Rubycon
+PartNumber=16TRV470M10X10.5
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2021-08-27 15:16:12
+Downloaded=2022-12-23 18:58:05
+3D=Y
