@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GPTS203212B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CW Industries", "GPTS203212B" (!) = "", "GPTS203212B", "Other", "629-GPTS203212B", "https://www.mouser.com/Search/Refine.aspx?Keyword=629-GPTS203212B", "Pushbutton Switches SPST ON-OFF", "http://switches-connectors-custom.cwind.com/Asset/GPTS203212BR2.pdf", "12 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GPTS203212B
+D Pushbutton Switches SPST ON-OFF
+K
+F http://switches-connectors-custom.cwind.com/Asset/GPTS203212BR2.pdf
+$ENDCMP
+#
+#End Doc Library

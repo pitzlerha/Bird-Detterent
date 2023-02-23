@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "GPTS203212B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "GPTS203212B")
+        (spec "default")
+    )
+)

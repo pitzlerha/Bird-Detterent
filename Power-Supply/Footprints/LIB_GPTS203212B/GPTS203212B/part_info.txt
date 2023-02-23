@@ -1,0 +1,9 @@
+Manufacturer=CW Industries
+PartNumber=GPTS203212B
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2020-03-02 17:28:53
+Downloaded=2022-12-27 22:29:54
+3D=Y

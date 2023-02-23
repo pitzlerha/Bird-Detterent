@@ -1,0 +1,16 @@
+.GPTS203212B :1 ;Pushbutton Switches SPST ON-OFF
+GPTS203212B
+*STM S
+*NGS
+*PLB 1="ON" 6="OFF"
+*MXP 2
+*DFN GPTS203212B
+~!Mouser Part Number (629-GPTS203212B)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=629-GPTS203212B)
+~!Manufacturer_Name (CW Industries)
+~!Manufacturer_Part_Number (GPTS203212B)
+~!Link Datasheet (http://switches-connectors-custom.cwind.com/Asset/GPTS203212BR2.pdf)
+~!Height (12mm)
+~!3D_Model (GPTS203212B)
+GPTS203212B
+1.1!U 6.1!U 

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_267439"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-03-02-17:28:53)
+    (utime 2020-04-02-19:34:42)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "6" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GPTS203212B")
+)
+
+
+(pinAssign "ECS_267439"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-03-02-17:28:53)
+    (utime 2020-04-02-19:34:42)
+    (interface
+        (port "1" (symbPinId 1) (portName "ON") (portType INOUT))
+        (port "6" (symbPinId 2) (portName "OFF") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_267439")
+                (port "1" (match "1"))
+                (port "6" (match "6"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GPTS203212B")
+)
+
+
+(part "GPTS203212B"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-03-02-17:28:53)
+    (utime 2020-04-02-19:34:42)
+    (packageRef "GPTS203212B")
+    (pinAssignRef "ECS_267439")
+    (interface
+        (port "1" (symbPinId 1) (portName "ON") (portType INOUT))
+        (port "6" (symbPinId 2) (portName "OFF") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Pushbutton Switches SPST ON-OFF")
+    (property "Mouser_Part_Number" "629-GPTS203212B")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=629-GPTS203212B")
+    (property "Manufacturer_Name" "CW Industries")
+    (property "Manufacturer_Part_Number" "GPTS203212B")
+    (property "Datasheet_Link" "http://switches-connectors-custom.cwind.com/Asset/GPTS203212BR2.pdf")
+    (property "compAreaTopHeight" 12)
+)
+
+

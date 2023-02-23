@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GPTS203212B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-02-17:28:53)
+    (mountForm default
+        (footprintRef "GPTS203212B")
+        (spec "System")
+    )
+)
