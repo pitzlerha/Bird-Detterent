@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_440642"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-05-05:44:26)
+    (utime 2019-08-11-06:49:49)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B530C-13-F")
+)
+
+
+(pinAssign "ECS_440642"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-05-05:44:26)
+    (utime 2019-08-11-06:49:49)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_440642")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B530C-13-F")
+)
+
+
+(part "B530C-13-F"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-05-05:44:26)
+    (utime 2019-08-11-06:49:49)
+    (packageRef "B530C-13-F")
+    (pinAssignRef "ECS_440642")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diodes Inc B530C-13-F, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB")
+    (property "Mouser_Part_Number" "621-B530C-13-F")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B530C-13-F?qs=iysljaAVWRGB%252BaiZVguiyg%3D%3D")
+    (property "Manufacturer_Name" "Diodes Inc.")
+    (property "Manufacturer_Part_Number" "B530C-13-F")
+    (property "Datasheet_Link" "https://www.diodes.com/assets/Datasheets/ds13012.pdf")
+    (property "compAreaTopHeight" 2.5)
+)
+
+

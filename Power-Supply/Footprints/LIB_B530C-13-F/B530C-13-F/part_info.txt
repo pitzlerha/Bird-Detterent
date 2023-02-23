@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=B530C-13-F
+PartCategory=Schottky Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.1
+Released=2019-04-05 05:44:26
+Downloaded=2022-12-23 23:02:26
+3D=Y

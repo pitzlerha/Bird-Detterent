@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B530C_13_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Inc.", "B530C-13-F" (!) = "", "DIOM7959X250N", "Diodes Moulded", "621-B530C-13-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B530C-13-F?qs=iysljaAVWRGB%252BaiZVguiyg%3D%3D", "Diodes Inc B530C-13-F, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB", "https://www.diodes.com/assets/Datasheets/ds13012.pdf", "2.5 mm"
+END_PART
+
+END.

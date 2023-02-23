@@ -1,0 +1,16 @@
+.B530C-13-F :1 ;Diodes Inc B530C-13-F, SMT Schottky Diode, 30V 5A, 2-Pin DO-214AB
+DIOM7959X250N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN B530C-13-F
+~!Mouser Part Number (621-B530C-13-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B530C-13-F?qs=iysljaAVWRGB%252BaiZVguiyg%3D%3D)
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (B530C-13-F)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/ds13012.pdf)
+~!Height (2.5mm)
+~!3D_Model (B530C-13-F)
+B530C-13-F
+1.1!U 2.1!U 
