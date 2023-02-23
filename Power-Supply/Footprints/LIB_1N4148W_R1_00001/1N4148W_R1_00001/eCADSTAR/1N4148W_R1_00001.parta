@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_13039271"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-22-04:28:30)
+    (utime 2021-11-02-06:28:20)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1N4148W_R1_00001")
+)
+
+
+(pinAssign "ECS_13039271"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-22-04:28:30)
+    (utime 2021-11-02-06:28:20)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13039271")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1N4148W_R1_00001")
+)
+
+
+(part "1N4148W_R1_00001"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-08-22-04:28:30)
+    (utime 2021-11-02-06:28:20)
+    (packageRef "1N4148W_R1_00001")
+    (pinAssignRef "ECS_13039271")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diodes - General Purpose, Power, Switching /A2/TR/7\"/HF/3K/SOD-123/SWI/SOD/USM-04/USM04-QI01/PJ///")
+    (property "Mouser_Part_Number" "241-1N4148W_R1_00001")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1N4148W_R1_00001?qs=sPbYRqrBIVnqVztCqPNVrw%3D%3D")
+    (property "Manufacturer_Name" "PANJIT")
+    (property "Manufacturer_Part_Number" "1N4148W_R1_00001")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1.35)
+)
+
+

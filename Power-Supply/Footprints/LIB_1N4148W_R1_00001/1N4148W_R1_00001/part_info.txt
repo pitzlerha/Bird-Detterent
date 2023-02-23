@@ -1,0 +1,9 @@
+Manufacturer=PANJIT
+PartNumber=1N4148W_R1_00001
+PartCategory=Diode
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=1.1
+Released=2021-08-22 04:28:30
+Downloaded=2022-12-23 22:56:14
+3D=Y

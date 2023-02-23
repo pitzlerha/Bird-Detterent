@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1N4148W_R1_00001'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "PANJIT", "1N4148W_R1_00001" (!) = "", "SOD3816X135N", "Small Outline Diode", "241-1N4148W_R1_00001", "https://www.mouser.co.uk/ProductDetail/Panjit/1N4148W_R1_00001?qs=sPbYRqrBIVnqVztCqPNVrw%3D%3D", "Diodes - General Purpose, Power, Switching /A2/TR/7"/HF/3K/SOD-123/SWI/SOD/USM-04/USM04-QI01/PJ///", "", "1.35 mm"
+END_PART
+
+END.

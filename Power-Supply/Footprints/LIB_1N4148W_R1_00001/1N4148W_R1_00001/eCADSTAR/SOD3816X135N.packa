@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1N4148W_R1_00001"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-22-04:28:30)
+    (mountForm default
+        (footprintRef "SOD3816X135N")
+        (spec "System")
+    )
+)
