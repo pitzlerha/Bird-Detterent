@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1858294"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-10:51:28)
+    (utime 2019-04-23-06:41:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SR3R0100FE66")
+)
+
+
+(pinAssign "ECS_1858294"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-10:51:28)
+    (utime 2019-04-23-06:41:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1858294")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SR3R0100FE66")
+)
+
+
+(part "SR3R0100FE66"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-22-10:51:28)
+    (utime 2019-04-23-06:41:06)
+    (packageRef "SR3R0100FE66")
+    (pinAssignRef "ECS_1858294")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Vishay .01   OHM  1% 3W")
+    (property "Mouser_Part_Number" "71-SR3R0100FE66")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/SR3R0100FE66?qs=BZBei1rCqCAq0LKoiENeyg%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "SR3R0100FE66")
+    (property "Datasheet_Link" "https://www.arrow.com/en/products/sr3r0100fe66/vishay")
+    (property "compAreaTopHeight" 25.4)
+)
+
+

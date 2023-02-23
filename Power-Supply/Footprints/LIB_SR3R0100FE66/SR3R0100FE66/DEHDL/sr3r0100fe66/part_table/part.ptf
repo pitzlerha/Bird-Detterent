@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SR3R0100FE66'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SR3R0100FE66" (!) = "", "SR3R0100FE66", "Other", "71-SR3R0100FE66", "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/SR3R0100FE66?qs=BZBei1rCqCAq0LKoiENeyg%3D%3D", "Vishay .01   OHM  1% 3W", "https://www.arrow.com/en/products/sr3r0100fe66/vishay", "25.4 mm"
+END_PART
+
+END.

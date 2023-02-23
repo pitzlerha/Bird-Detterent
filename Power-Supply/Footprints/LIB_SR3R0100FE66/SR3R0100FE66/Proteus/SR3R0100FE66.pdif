@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SR3R0100FE66"
+   (description "Vishay .01   OHM  1% 3W")
+   (family "RES")
+   (package "SR3R0100FE66")
+   (attribute "Datasheet Link" "https://www.arrow.com/en/products/sr3r0100fe66/vishay")
+   (attribute "Geometry.Height" "25.4mm")
+   (attribute "Mouser Part Number" "71-SR3R0100FE66")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/SR3R0100FE66?qs=BZBei1rCqCAq0LKoiENeyg%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "SR3R0100FE66")
+   (gate
+    (symbol "SR3R0100FE66")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "SR3R0100FE66"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SR3R0100FE66"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.825 0.82)
+      (pt 16.065 0.82)
+      (pt 16.065 -0.82)
+      (pt -0.825 -0.82)
+      (pt -0.825 0.82))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.953 1.953)
+      (pt 17.193 1.953)
+      (pt 17.193 -1.953)
+      (pt -1.953 -1.953)
+      (pt -1.953 1.953))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.32 0.82)
+      (pt 14.22 0.82))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.32 -0.82)
+      (pt 14.22 -0.82))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 15.240 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.271)
+    (plated true)
+    (pad (layer TCOP) (square 1.906))
+    (pad (layer INNER) (round 1.906))
+    (pad (layer BCOP) (square 1.906))
+   )
+   (padstack 2
+    (hole 1.271)
+    (plated true)
+    (pad (layer TCOP) (round 1.906))
+    (pad (layer INNER) (round 1.906))
+    (pad (layer BCOP) (round 1.906))
+   )
+   (model "SR3R0100FE66.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

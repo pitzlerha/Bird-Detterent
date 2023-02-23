@@ -1,0 +1,16 @@
+.SR3R0100FE66 :1 ;Vishay .01   OHM  1% 3W
+SR3R0100FE66
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SR3R0100FE66
+~!Mouser Part Number (71-SR3R0100FE66)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Dale/SR3R0100FE66?qs=BZBei1rCqCAq0LKoiENeyg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SR3R0100FE66)
+~!Link Datasheet (https://www.arrow.com/en/products/sr3r0100fe66/vishay)
+~!Height (25.4mm)
+~!3D_Model (SR3R0100FE66)
+SR3R0100FE66
+1.1!U 2.1!U 

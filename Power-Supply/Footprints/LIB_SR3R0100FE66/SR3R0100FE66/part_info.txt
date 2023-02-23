@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SR3R0100FE66
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-04-22 10:51:28
+Downloaded=2022-12-27 22:13:21
+3D=Y

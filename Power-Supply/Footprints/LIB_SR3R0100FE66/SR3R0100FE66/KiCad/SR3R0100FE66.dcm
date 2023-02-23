@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SR3R0100FE66
+D Vishay .01   OHM  1% 3W
+K
+F https://www.arrow.com/en/products/sr3r0100fe66/vishay
+$ENDCMP
+#
+#End Doc Library

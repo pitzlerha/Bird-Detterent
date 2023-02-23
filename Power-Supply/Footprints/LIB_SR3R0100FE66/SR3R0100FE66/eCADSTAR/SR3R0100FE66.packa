@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SR3R0100FE66"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-22-10:51:28)
+    (mountForm default
+        (footprintRef "SR3R0100FE66")
+        (spec "System")
+    )
+)
