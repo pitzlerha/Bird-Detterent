@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UHD1110-FKA-CL1A13r3q1BBQFMF3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-01-11-11:45:32)
+    (mountForm default
+        (footprintRef "UHD1110FKACL1A13r3q1BBQFMF3")
+        (spec "System")
+    )
+)

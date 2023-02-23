@@ -1,0 +1,9 @@
+Manufacturer=Wolfspeed
+PartNumber=UHD1110-FKA-CL1A13r3q1BBQFMF3
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-01-11 11:45:32
+Downloaded=2022-12-27 22:41:22
+3D=Y
