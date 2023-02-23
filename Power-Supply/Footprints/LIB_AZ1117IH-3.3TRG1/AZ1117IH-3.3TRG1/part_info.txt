@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=AZ1117IH-3.3TRG1
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=3.1
+Released=2016-03-18 10:25:29
+Downloaded=2023-01-03 01:25:19
+3D=Y

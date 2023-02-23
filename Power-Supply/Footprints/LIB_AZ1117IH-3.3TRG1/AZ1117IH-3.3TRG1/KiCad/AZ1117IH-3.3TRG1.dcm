@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1117IH-3.3TRG1
+D LDO Voltage Regulators LDO BJT HiCurr 1.35A 10Hz to 10KHz
+K
+F 
+$ENDCMP
+#
+#End Doc Library
