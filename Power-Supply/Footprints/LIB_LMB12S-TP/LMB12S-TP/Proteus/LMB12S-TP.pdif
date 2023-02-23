@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LMB12S-TP"
+   (description "Bridge Rectifiers 1A 20Vr 14Vrms 20V 30A Ifsm")
+   (family "ANA")
+   (package "LMB12STP")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "1.71mm")
+   (attribute "Mouser Part Number" "833-LMB12S-TP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/LMB12S-TP?qs=P1JMDcb91o7e1QBloAQ5ig%3D%3D")
+   (attribute "Manufacturer_Name" "Micro Commercial Components (MCC)")
+   (attribute "Manufacturer_Part_Number" "LMB12S-TP")
+   (gate
+    (symbol "LMB12S-TP")
+    (pin "+" 1 PS)
+    (pin "~_1" 2 PS)
+    (pin "~_2" 3 PS)
+    (pin "-" 4 PS)
+   )
+  )
+  (symbol "LMB12S-TP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LMB12STP"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.525 2.4)
+      (pt 2.525 2.4)
+      (pt 2.525 -2.4)
+      (pt -2.525 -2.4)
+      (pt -2.525 2.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.525 5.1)
+      (pt 3.525 5.1)
+      (pt 3.525 -4.61)
+      (pt -3.525 -4.61)
+      (pt -3.525 5.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.2 2.4)
+      (pt 1.2 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.2 -2.4)
+      (pt 1.2 -2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.525 1.8)
+      (pt -2.525 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.525 1.8)
+      (pt 2.525 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.05 4)
+      (arc (pt 2.050 4.000) (pt 2.000 4.000) (pt 2.100 4.100) (start 180.0) (sweep -90.0))
+      (pt 2.05 4.1)
+      (arc (pt 2.050 4.100) (pt 2.000 4.000) (pt 2.100 4.100) (start 180.0) (sweep 90.0))
+      (pt 2.05 4))))
+   (leg 1 (pt 2.050 2.860) (padstack 0))
+   (leg 2 (pt 2.050 -2.860) (padstack 0))
+   (leg 3 (pt -2.050 -2.860) (padstack 0))
+   (leg 4 (pt -2.050 2.860) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.900 1.500 0 0 90.000))
+   )
+   (model "LMB12S-TP.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

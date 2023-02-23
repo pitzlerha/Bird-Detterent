@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LMB12S-TP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-27-09:38:02)
+    (mountForm default
+        (footprintRef "LMB12STP")
+        (spec "System")
+    )
+)

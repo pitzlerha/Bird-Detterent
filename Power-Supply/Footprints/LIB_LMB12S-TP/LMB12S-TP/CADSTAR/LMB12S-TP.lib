@@ -1,0 +1,16 @@
+.LMB12S-TP :1 ;Bridge Rectifiers 1A 20Vr 14Vrms 20V 30A Ifsm
+LMB12STP
+*STM BR
+*NGS
+*PLB 1="+" 2="~_1" 3="~_2" 4="-"
+*MXP 4
+*DFN LMB12S-TP
+~!Mouser Part Number (833-LMB12S-TP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/LMB12S-TP?qs=P1JMDcb91o7e1QBloAQ5ig%3D%3D)
+~!Manufacturer_Name (Micro Commercial Components (MCC))
+~!Manufacturer_Part_Number (LMB12S-TP)
+~!Link Datasheet (-)
+~!Height (1.71mm)
+~!3D_Model (LMB12S-TP)
+LMB12S-TP
+1.1!U 2.1!U 3.1!U 4.1!U 

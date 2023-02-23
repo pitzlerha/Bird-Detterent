@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LMB12S_TP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Micro Commercial Components (MCC)", "LMB12S-TP" (!) = "", "LMB12STP", "Other", "833-LMB12S-TP", "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/LMB12S-TP?qs=P1JMDcb91o7e1QBloAQ5ig%3D%3D", "Bridge Rectifiers 1A 20Vr 14Vrms 20V 30A Ifsm", "", "1.71 mm"
+END_PART
+
+END.

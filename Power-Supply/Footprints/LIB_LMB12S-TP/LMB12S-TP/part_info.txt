@@ -1,0 +1,9 @@
+Manufacturer=Micro Commercial Components (MCC)
+PartNumber=LMB12S-TP
+PartCategory=Bridge Rectifier
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2020-10-27 09:38:02
+Downloaded=2022-12-23 17:47:41
+3D=Y
