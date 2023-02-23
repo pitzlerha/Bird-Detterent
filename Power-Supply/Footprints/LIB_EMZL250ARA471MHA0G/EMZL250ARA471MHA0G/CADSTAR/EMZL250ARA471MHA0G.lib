@@ -1,0 +1,16 @@
+.EMZL250ARA471MHA0G :1 ;Aluminum Electrolytic Capacitors - SMD 470uF 25V AEC-Q200
+CAPAE830X1050N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN EMZL250ARA471MHA0G
+~!Mouser Part Number (661-EMZL250ARA471MHA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EMZL250ARA471MHA0G?qs=GBLSl2Akirs0SrxTHlCA0A%3D%3D)
+~!Manufacturer_Name (United Chemi-Con)
+~!Manufacturer_Part_Number (EMZL250ARA471MHA0G)
+~!Link Datasheet (-)
+~!Height (10.5mm)
+~!3D_Model (EMZL250ARA471MHA0G)
+EMZL250ARA471MHA0G
+1.1!U 2.1!U 

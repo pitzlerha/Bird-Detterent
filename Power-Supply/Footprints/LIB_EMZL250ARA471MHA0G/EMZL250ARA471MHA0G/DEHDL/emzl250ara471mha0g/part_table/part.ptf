@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EMZL250ARA471MHA0G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "United Chemi-Con", "EMZL250ARA471MHA0G" (!) = "", "CAPAE830X1050N", "Capacitor Al Electrolytic", "661-EMZL250ARA471MHA", "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EMZL250ARA471MHA0G?qs=GBLSl2Akirs0SrxTHlCA0A%3D%3D", "Aluminum Electrolytic Capacitors - SMD 470uF 25V AEC-Q200", "", "10.5 mm"
+END_PART
+
+END.

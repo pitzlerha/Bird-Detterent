@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12327495"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-17-05:03:02)
+    (utime 2023-01-09-12:14:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "EMZL250ARA471MHA0G")
+)
+
+
+(pinAssign "ECS_12327495"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-17-05:03:02)
+    (utime 2023-01-09-12:14:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12327495")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "EMZL250ARA471MHA0G")
+)
+
+
+(part "EMZL250ARA471MHA0G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-17-05:03:02)
+    (utime 2023-01-09-12:14:32)
+    (packageRef "EMZL250ARA471MHA0G")
+    (pinAssignRef "ECS_12327495")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Aluminum Electrolytic Capacitors - SMD 470uF 25V AEC-Q200")
+    (property "Mouser_Part_Number" "661-EMZL250ARA471MHA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EMZL250ARA471MHA0G?qs=GBLSl2Akirs0SrxTHlCA0A%3D%3D")
+    (property "Manufacturer_Name" "United Chemi-Con")
+    (property "Manufacturer_Part_Number" "EMZL250ARA471MHA0G")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 10.5)
+)
+
+
