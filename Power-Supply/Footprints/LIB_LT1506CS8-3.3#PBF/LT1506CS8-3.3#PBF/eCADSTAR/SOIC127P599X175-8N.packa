@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LT1506CS8-3_3_PBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-05-07-15:22:31)
+    (mountForm default
+        (footprintRef "SOIC127P599X175-8N")
+        (spec "System")
+    )
+)

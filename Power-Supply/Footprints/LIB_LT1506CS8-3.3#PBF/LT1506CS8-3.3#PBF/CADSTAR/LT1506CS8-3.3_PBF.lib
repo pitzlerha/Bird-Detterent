@@ -1,0 +1,16 @@
+.LT1506CS8-3.3_PBF :1 ;Linear Technology, LT1506CS8-3.3#PBF Step-Down Switching Regulator 4.5A Adj./Fixed, Maximum of 3.3 V, 8-Pin SOIC
+SOIC127P599X175-8N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="BOOST" 3="FB OR SENSE" 4="GND" 5="VC" 6="'SHDN'" 7="SYNC" 8="VSW"
+*MXP 8
+*DFN LT1506CS8-3.3_PBF
+~!Mouser Part Number (584-LT1506CS8-3.3PBF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT1506CS8-3.3PBF)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT1506CS8-3.3#PBF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/LT1506CS8-3.3#PBF.pdf)
+~!Height (1.752mm)
+~!3D_Model (LT1506CS8-3.3#PBF)
+LT1506CS8-3.3_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

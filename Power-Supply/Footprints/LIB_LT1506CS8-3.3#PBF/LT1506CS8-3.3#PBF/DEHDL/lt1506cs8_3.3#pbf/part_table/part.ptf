@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT1506CS8_3.3#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT1506CS8-3.3#PBF" (!) = "", "SOIC127P599X175-8N", "Small Outline Packages", "584-LT1506CS8-3.3PBF", "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LT1506CS8-3.3PBF", "Linear Technology, LT1506CS8-3.3#PBF Step-Down Switching Regulator 4.5A Adj./Fixed, Maximum of 3.3 V, 8-Pin SOIC", "https://componentsearchengine.com/Datasheets/1/LT1506CS8-3.3#PBF.pdf", "1.752 mm"
+END_PART
+
+END.
