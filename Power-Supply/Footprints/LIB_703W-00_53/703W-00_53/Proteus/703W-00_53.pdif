@@ -1,0 +1,221 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "703W-00_53"
+   (description "AC Power Entry Modules PCB Mount 7mm")
+   (family "CON")
+   (package "703W0053")
+   (attribute "Datasheet Link" "http://www.qualtekusa.com/Catalog/AC_Receptacles/pdfs/703w0053.pdf")
+   (attribute "Geometry.Height" "28.7mm")
+   (attribute "Mouser Part Number" "562-703W-00/53")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Qualtek/703W-00-53?qs=%252BCmxX1pwNuHERMfCpPr41g%3D%3D")
+   (attribute "Manufacturer_Name" "Qualtek")
+   (attribute "Manufacturer_Part_Number" "703W-00/53")
+   (gate
+    (symbol "703W-00_53")
+    (pin "L" 1 PS)
+    (pin "E" 2 PS)
+    (pin "N" 3 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "703W-00_53"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "703W0053"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -32 -0)
+      (pt 18 -0)
+      (pt 18 16)
+      (pt -32 16)
+      (pt -32 -0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -21.9 19)
+      (pt 7.9 19)
+      (pt 7.9 16)
+      (pt -21.9 16)
+      (pt -21.9 19))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -16 0)
+      (pt -32 0)
+      (pt -32 -0)
+      (pt -16 -0)
+      (pt -16 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -32 -0)
+      (pt -32 -0)
+      (pt -32 16)
+      (pt -32 16)
+      (pt -32 -0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -32 16)
+      (pt 18 16)
+      (pt 18 16)
+      (pt -32 16)
+      (pt -32 16))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 18 16)
+      (pt 18 16)
+      (pt 18 -0)
+      (pt 18 -0)
+      (pt 18 16))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 18 -0)
+      (pt 2 -0)
+      (pt 2 -0)
+      (pt 18 -0)
+      (pt 18 -0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 -0)
+      (pt -5 -0)
+      (pt -5 -0)
+      (pt -2 -0)
+      (pt -2 -0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9 -0)
+      (pt -12 -0)
+      (pt -12 -0)
+      (pt -9 -0)
+      (pt -9 -0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -21.9 16)
+      (pt 7.9 16)
+      (pt 7.9 19)
+      (pt -21.9 19)
+      (pt -21.9 16))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -33 20)
+      (pt 19 20)
+      (pt 19 -2.35)
+      (pt -33 -2.35)
+      (pt -33 20))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -2)
+      (arc (pt 0.000 -2.000) (pt -0.050 -2.000) (pt 0.050 -1.900) (start 180.0) (sweep -90.0))
+      (pt 0 -1.9)
+      (arc (pt 0.000 -1.900) (pt -0.050 -2.000) (pt 0.050 -1.900) (start 180.0) (sweep 90.0))
+      (pt 0 -2)
+      (arc (pt 0.000 -2.000) (pt -0.050 -2.000) (pt 0.050 -1.900) (start 180.0) (sweep -90.0))
+      (pt 0 -1.9))))
+   (leg 1 (pt 0.000 -0.000) (padstack 0))
+   (leg 2 (pt -7.000 -0.000) (padstack 0))
+   (leg 3 (pt -14.000 -0.000) (padstack 0))
+   (leg MH1 (pt 12.750 7.300) (padstack 4))
+   (leg MH2 (pt -26.750 7.300) (padstack 5))
+   (padstack 0
+    (hole 1.8)
+    (plated true)
+    (pad (layer TCOP) (round 2.700))
+    (pad (layer INNER) (round 2.700))
+    (pad (layer BCOP) (round 2.700))
+   )
+   (padstack 4
+    (hole 3.5)
+    (plated true)
+    (pad (layer TCOP) (round 5.250))
+    (pad (layer INNER) (round 5.250))
+    (pad (layer BCOP) (round 5.250))
+   )
+   (padstack 5
+    (hole 3.5)
+    (plated true)
+    (pad (layer TCOP) (round 5.250))
+    (pad (layer INNER) (round 5.250))
+    (pad (layer BCOP) (round 5.250))
+   )
+   (model "703W-00_53.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

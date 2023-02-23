@@ -1,0 +1,17 @@
+.703W-00_53 :1 ;AC Power Entry Modules PCB Mount 7mm
+"703W0053"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2
+*PLB 1="L" 2="E" 3="N" 4="MH1" 5="MH2"
+*MXP 5
+*DFN 703W-00_53
+~!Mouser Part Number (562-703W-00/53)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Qualtek/703W-00-53?qs=%252BCmxX1pwNuHERMfCpPr41g%3D%3D)
+~!Manufacturer_Name (Qualtek)
+~!Manufacturer_Part_Number (703W-00/53)
+~!Link Datasheet (http://www.qualtekusa.com/Catalog/AC_Receptacles/pdfs/703w0053.pdf)
+~!Height (28.7mm)
+~!3D_Model (703W-00_53)
+"703W-00_53"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

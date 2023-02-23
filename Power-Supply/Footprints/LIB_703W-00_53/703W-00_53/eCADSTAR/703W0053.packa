@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "703W-00_53"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-03-10:56:47)
+    (mountForm default
+        (footprintRef "703W0053")
+        (spec "System")
+    )
+)
