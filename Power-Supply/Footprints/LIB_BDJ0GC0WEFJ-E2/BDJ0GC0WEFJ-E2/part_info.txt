@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=BDJ0GC0WEFJ-E2
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2018-01-09 11:20:49
+Downloaded=2022-12-23 18:31:23
+3D=Y
