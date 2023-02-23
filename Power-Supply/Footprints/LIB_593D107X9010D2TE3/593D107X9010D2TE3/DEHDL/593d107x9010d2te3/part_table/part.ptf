@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '593D107X9010D2TE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "593D107X9010D2TE3" (!) = "", "CAPPM7343X310N", "Capacitor Moulded Polarised", "74-593D107X9010D2TE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/593D107X9010D2TE3?qs=%2F2iC%2FhUAFZ91moUUgu5gAA%3D%3D", "Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Low ESR", "http://www.vishay.com/doc?40005", "3.1 mm"
+END_PART
+
+END.
