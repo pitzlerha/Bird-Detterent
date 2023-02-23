@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM2940IMPX_10_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM2940IMPX-10/NOPB" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "926-LM2940IMPX10NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2940IMPX-10-NOPB?qs=X1J7HmVL2ZGaWCR2un6ouA%3D%3D", "LDO Voltage Regulators 1A Low Dropout Regulator 4-SOT-223 -40 to 85", "http://www.ti.com/lit/ds/symlink/lm2940c.pdf", "1.8 mm"
+END_PART
+
+END.

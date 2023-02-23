@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM2940IMPX-10/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=2.1
+Released=2018-12-19 04:00:01
+Downloaded=2023-01-16 00:04:09
+3D=Y
