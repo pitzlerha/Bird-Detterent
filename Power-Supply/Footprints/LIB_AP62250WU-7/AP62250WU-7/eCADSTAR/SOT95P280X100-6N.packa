@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP62250WU-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-17-12:54:48)
+    (mountForm default
+        (footprintRef "SOT95P280X100-6N")
+        (spec "System")
+    )
+)
