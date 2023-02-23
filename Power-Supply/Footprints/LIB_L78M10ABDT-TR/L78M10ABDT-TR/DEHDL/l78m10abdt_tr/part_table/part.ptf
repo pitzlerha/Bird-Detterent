@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L78M10ABDT_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "L78M10ABDT-TR" (!) = "", "TO228P972X240-3N", "TO-XXX (Inc. DPAK)", "511-L78M10ABDT-TR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M10ABDT-TR?qs=22WmWNTp1rr9tcUfF7JLAg%3D%3D", "Voltage Regulator 10V 0.5A DPAK STMicroelectronics L78M10ABDT-TR, Single Linear Voltage Regulator, 500mA 10 V, +/-2%, 3-Pin DPAK", "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf", "2.4 mm"
+END_PART
+
+END.

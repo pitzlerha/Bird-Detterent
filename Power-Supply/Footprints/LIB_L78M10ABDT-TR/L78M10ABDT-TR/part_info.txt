@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L78M10ABDT-TR
+PartCategory=Integrated Circuit
+PackageCategory=TO-XXX (Inc. DPAK)
+PinCount=3
+Version=1.2
+Released=2015-07-12 18:13:02
+Downloaded=2023-01-02 23:56:05
+3D=N

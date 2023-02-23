@@ -1,0 +1,15 @@
+.L78M10ABDT-TR :1 ;Voltage Regulator 10V 0.5A DPAK STMicroelectronics L78M10ABDT-TR, Single Linear Voltage Regulator, 500mA 10 V, +/-2%, 3-Pin DPAK
+TO228P972X240-3N
+*STM IC
+*NGS
+*PLB 1="INPUT" 3="OUTPUT" 4="GND_(TAB)"
+*MXP 3
+*DFN L78M10ABDT-TR
+~!Mouser Part Number (511-L78M10ABDT-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M10ABDT-TR?qs=22WmWNTp1rr9tcUfF7JLAg%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L78M10ABDT-TR)
+~!Link Datasheet (http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf)
+~!Height (2.4mm)
+L78M10ABDT-TR
+1.1!Y 3.1!G 4.1!I 

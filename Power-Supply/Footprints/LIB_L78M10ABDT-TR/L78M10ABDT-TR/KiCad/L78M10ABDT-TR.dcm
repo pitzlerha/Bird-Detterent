@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78M10ABDT-TR
+D Voltage Regulator 10V 0.5A DPAK STMicroelectronics L78M10ABDT-TR, Single Linear Voltage Regulator, 500mA 10 V, +/-2%, 3-Pin DPAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf
+$ENDCMP
+#
+#End Doc Library
