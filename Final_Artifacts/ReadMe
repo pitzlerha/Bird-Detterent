@@ -1,0 +1,30 @@
+This folder contains all of the documentation on our Final Prototype.
+For more information on the project, see our Project Document at https://docs.google.com/document/d/1QbJoJ92n-SqTIG3ZBJ0aD22_XHnqZucQURwWdW5gSv0/edit?usp=sharing
+
+To build the prototype, complete the following steps:
+1. Order all four PCBs. The design zip files can be found in PCB_Files. We recommend submitting these files to a board manufacturer such as OSH Park for manufacturing.
+2. Order all relevant components. The components needed for each board can be found in BOM files located in PCB_Files. Alternatively you can consult the Master BOM in this folder.
+3. Order the ESP32-S2-DevKitM-1R and Open MV Cam H7 Plus.
+4. Follow the Instructions in the Microcontroller Code and Open MV Cam subfolders to flash the appropriate binaries onto the microcontrollers.
+4. Use a 3D Printer to print the enclosure Pieces.
+5. Follow the instructions in the Enclosure sub-folder to assemble the enclosure
+6. Follow the board assembly notes contained in the ReadMes for each board. (Located as subfolders of this folder)
+7. Directly connect the motion detector and ESP32 Dev board to the Control Board. (Male to female pin Header Connections).
+8. Mount all of the Boards as directed in teh assembly notes contained in the Enclosure sub-folder.
+9. Use Jumper pins to connect the boards as follows:
+
+Power Supply 3.3V: -> 3.3V input of Control Board PCB
+Power Supply GND: -> 3.3V ground input of Control Board PCB
+Power Supply 5V (1): -> 5V input of Control Board PCB
+Power Supply GND (1): -> 5V ground input of Control PCB
+Power Supply 5V (2): -> 5V input of OpenMV Cam
+Power Supply GND (2): -> 5V ground input of OpenMV Cam
+Power Supply 5V Strobe: -> 5V input of Strobe Light PCB
+Power Supply GND: -> 5V ground input of Strobe Light PCB
+Control Board Strobe (bottom right): -> Gate signal input of Strobe Light PCB
+Control Board Audio2 (Top Right): -> Input signal for Speaker
+Control Board Audio G (Top Right): -> Ground for Speaker
+Control Board SCL (Top Left of Center): -> I2C SCL pin of OpenMV Cam
+Control Board SDA (Top Left of Center): -> I2C SDA pin of OpenMV Cam
+
+Follow instructions in the Enclosure sub-folder to Weather Proof the Enclosure.
