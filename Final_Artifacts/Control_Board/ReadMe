@@ -7,3 +7,14 @@ To build the Control Board complete the following steps:
 5. Use a hot air gun to solder all smd components.
 6. Check for and remove solder bridges.
 7. Using a Soldering Iron and solder, solder all through hole components.
+
+The Power Supply PCB has the following connections:
+3V3 (bottom right): -> 3.3V output of Power Supply PCB
+G (bottom right): -> 3.3V Ground output of Power Supply PCB
+Strobe (bottom right): -> Gate signal input of Strobe Light PCB
+Audio2 (Top Right): -> Input signal for Speaker
+Audio G (Top Right): -> Ground for Speaker
+5V (Top Middle): -> 5V output of Power Supply PCB
+G (Top Middle): -> 5V Ground output of Power Supply PCB
+SCL (Top Left of Center): -> I2C SCL pin of OpenMV Cam
+SDA (Top Left of Center): -> I2C SDA pin of OpenMV Cam
