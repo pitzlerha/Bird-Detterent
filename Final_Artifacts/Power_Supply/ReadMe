@@ -1,0 +1,25 @@
+To build the Power Supply Board complete the following steps:
+
+1. Submit the Power Supply Final PCB files.zip to a board manufacturer of your choice. We used https://oshpark.com/ to fabricate ours.
+2. Order the Components listed in Power Supply Final BOM.xlsx
+3. Apply solder paste to all smd pads.
+4. Carefully place smd components on their pads according to the BOM, schematic, and pcb layout.
+5. Use a hot air gun to solder all smd components.
+6. Check for solder bridges, especially on the switching voltage regulator and current limiting switch ICs.
+7. Use a DMM to verify that there is no short between any of the outputs and ground.
+8. Using a Soldering Iron and solder, solder all through hole components.
+9. MAKE SURE THE TRANSFORMER DOT IS FACING THE SUPERCAPACITORS AND ICS. (the dot denotes the secondary side, the primary side should be connected to wall power)
+10. Be careful when applying wall power to circuitry for the first time.
+
+The Power Supply PCB has the following connections:
+3.3V (Right Center): -> 3.3V input of Control Board PCB
+GND (Right Center): -> 3.3V ground input of Control Board PCB
+5V (1) (Bottom Right): -> 5V input of Control Board PCB
+GND (1) (Bottom Right): -> 5V ground input of Control PCB
+5V (2) (Bottom Right): -> 5V input of OpenMV Cam
+GND (2) (Bottom Right): -> 5V ground input of OpenMV Cam
+5V Strobe (Top Right): -> 5V input of Strobe Light PCB
+GND (Top Right): -> 5V ground input of Strobe Light PCB
+
+Note: When power is initially applied, the supercapactors will take time to charge. Expect the 5V strobe output to rise to 5V slowly over the course of several minutes.
+Note: The supercapacitors keep the outputs alive after wall power is disconnected. Circuitry will function until they are discharged.
