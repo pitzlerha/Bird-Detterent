@@ -1,0 +1,9 @@
+To build the Control Board complete the following steps:
+
+1. Submit the Control Board Final PCB v2.zip to a board manufacturer of your choice. We used https://oshpark.com/ to fabricate ours.
+2. Order the Components listed in Control Board BOM.xlsx
+3. Apply solder paste to all smd pads.
+4. Carefully place smd components on their pads according to the BOM, schematic, and pcb layout.
+5. Use a hot air gun to solder all smd components.
+6. Check for and remove solder bridges.
+7. Using a Soldering Iron and solder, solder all through hole components.
