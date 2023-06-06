@@ -1,0 +1,4 @@
+To train the openMV Camera refer to the following video as a guide:
+https://docs.edgeimpulse.com/docs/tutorials/image-classification
+
+To upload the .py to the camera so that it runs without the OPENMV IDE save it as the .main under the tool tab and it will run the program when powered.
