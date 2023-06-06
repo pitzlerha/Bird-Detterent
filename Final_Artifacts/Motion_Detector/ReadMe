@@ -1,0 +1,37 @@
+To build the Motion Sensor complete the following steps:
+
+1. Submit the Microwave Sensor v2.1 PCB Files.zip to a board manufacturer of your choice. We used https://oshpark.com/ to fabricate ours.
+2. Order the Components listed in Microwave Sensor BOM.xlsx
+3. Apply solder paste to all smd pads on the front except the main sensor's BGA surface connectors.
+4. Apply high quality gel flux, such as amtech (https://amtechdirect.com/), to bga surface pads.
+5. Carefully place front components on their pads according to the BOM, schematic, and pcb layout.
+6. Using a Hot plate or similar device, slowly heat board until solder begins to melt
+7. Let plate remain heated for 3 minutes. Apply hot air to the main BGA sensor and any other components as necessary. Confirm all components are correctly in place.
+8. Turn hot plate off, and allow the board to cool slowly on the plate.
+9. Apply solder paste to all smd pads on the back.
+10. Carefully place back components on their pads according to the BOM, schematic, and pcb layout.
+11. Using a hot air gun, melt the solder paste. Confrim all components are correctly in place.
+12. Check for solder bridges, and fix and soldering errors.
+13. Using a Soldering Iron and solder, solder all through hole components.
+
+The Motion Sensor PCB has the following connections:
+CS (Top left): Chip Select pin for SPI communication with the BGT60LTR11(B)AIP, expects a 3.3V active low signal
+COPI (Below CS): Chip Out Peripheral In pin for SPI communication with the BGT60LTR11(B)AIP, expects a 3.3V digital signal
+CLK (Below COPI): Clock pin for SPI communication with the BGT60LTR11(B)AIP, expects a periodic (up to 50 MHZ) 3.3V signal
++ (Below CLK): Positive pin for 3.3V Power Supply to Board
+- (Bottom Left): Negative (gnd) pin for 3.3V Power Supply to Board
+P (Bottom Middle): Phase detect 3.3V digital output pin
+T (Bottom Middle): Target detect 3.3V Active Low output pin (low means motion)
+IFI (Far Right): ABB output - I Channel (Unused by our design)
+IFQ (below IFI): ABB output - Q Channel (Unused by our design)
+DIVO (Bottom Right): Frequency divider output (Unused by our design)
+
+In our design, the motion detector should mount directly onto the Control Board PCB Using male to female jumper pin connectors.
+
+This board is designed to run the BGT60LTR11(B)AIP in SPI mode. For SPI interfacing with a microcontroller see User's guide to BGT60LTR11AIP
+
+Using our code, Sensitivity and other settings can be changed by altering the contents of the values array on line 221 of microwave_board_test_main.c. See microwave_defines.h for valid values.
+
+See code documentation for more details on our usage of the BGT60LTR11AIP.
+
+For more technical details on the BGT60LTR11AIP, consult the main datasheet and the BGT60LTR11AIP shield documentation used to develop this board.
