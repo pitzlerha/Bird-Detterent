@@ -1,0 +1,21 @@
+The microcontroller code for the ESP32-S2 was written using the ESP-IDF. See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/ for more details and for how to install/use the idf.
+Make sure to use ESP-IDF V 5.1 or greater, otherwise the DAC code will not compile.
+
+The only files unique to this project are microwave_board_test.c and all of the .h files in the main folder.
+If you're having trouble compiling or running this code, try getting a sample ESP-IDF program such as hello world working,
+then copying in the code from microwave_board_test.c into main and including the .h files.
+
+This code uses several ESP-IDF drivers
+1. driver/spi_master.h to enable SPI communication with the BGT60LTR11(B)AIP. See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/spi_master.html
+2. driver/i2c.h to enable I2C communication with the Open MV Cam. See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html.
+3. esp_timer.h to turn the strobe light on and off in given intervals. See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/esp_timer.html.
+4. driver/dac_continuous.h to play .wav files on the DAC. See the example at https://github.com/espressif/esp-idf/tree/81e1e6599553a646a689ad51e32a5d48b34cfec5/examples/peripherals/dac/dac_continuous/dac_audio to learn more.
+
+To initialize the motion detector, a series of values are written to the BGT60LTR11(B)AIP shortly after start up.
+This takes place in lines 216-233. The sequence is the same as described on page 10, section 2.2.2 in Figure 5 of the BGT User's Guide.
+Values can be found in the tables at the end of the User's guide and relevant values are provided in microwave_defines.h 
+
+The contents of the wav files played on the dac are stored in the .h files. These are generated using a python script generate_audio_file.py located here: https://github.com/espressif/esp-idf/tree/81e1e6599553a646a689ad51e32a5d48b34cfec5/examples/peripherals/dac/dac_continuous/dac_audio/tools
+The file to be converted must be a .wav file with a single audio channel, 8 bit resolution and a sample rate of 48kHz located in the same directory as the python script.
+One way to convert .wav files into the correct format is to use this website: https://www.conversion-tool.com/wav/#uploadProgress
+Once the .h file is created, it should be put in the main directory and included in microwave_board_test.c. Change the name of the array in the .h file to reference multiple files.
