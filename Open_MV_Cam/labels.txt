@@ -1,2 +1,3 @@
 bird
-unknown
+no_bird
+obstruct
