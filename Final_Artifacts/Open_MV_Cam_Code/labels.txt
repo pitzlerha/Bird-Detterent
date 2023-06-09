@@ -1,0 +1,3 @@
+bird
+no_bird
+obstruct
